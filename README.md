@@ -4,8 +4,8 @@ Este proyecto implementa un pipeline de clasificación y enrutamiento de correos
 
 ### **Tecnologías Utilizadas**
 
-* **Lenguaje:** Python 3.8+  
-* **LLM:** Gemini-Pro (a través de la API de Google)  
+* **Lenguaje:** Python 3.12 
+* **LLM:** Gemini-2.0-Flash (a través de la API de Google)  
 * **Framework Web:** FastAPI  
 * **Librería de LLM:** LangChain, LangGraph  
 * **Contenedores (Opcional):** Docker  
