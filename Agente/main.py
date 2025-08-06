@@ -91,7 +91,7 @@ def handle_reclamo_tool(id: int, subject: str, email_text: str, importancia: Lit
     """
     remitente = os.getenv("GMAIL_USER")
     contraseña = os.getenv("GMAIL_PASS")
-    destinatario = "seba1carrillo@gmail.com"
+    destinatario = "UN CORREO"
     servidor_smtp = "smtp.gmail.com"
     puerto_smtp = 587
 
