@@ -1,0 +1,12 @@
+services:
+  spa-ai-api:
+    # Construye la imagen usando el Dockerfile en el directorio actual
+    build: ./Agente/
+    # Mapea el puerto 8000 del contenedor al puerto 8000 de tu máquina host
+    ports:
+      - "8000:8000"
+    # Carga las variables de entorno desde el archivo .env en el host
+    env_file:
+      - .env
+    # Reinicia automáticamente el contenedor si falla
+    restart: always
