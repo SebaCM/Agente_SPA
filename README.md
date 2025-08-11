@@ -25,17 +25,17 @@ Para ejecutar el proyecto, necesitarás:
 Sigue estos pasos para poner en marcha el proyecto:
 
 1. **Clonar el repositorio:**  
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git  
+   git clone https://github.com/SebaCM/Agente_SPA.git 
    cd nombre-del-repositorio
 
-2. **Crear y activar un entorno virtual:**  
+3. **Crear y activar un entorno virtual:**  
    python3 \-m venv venv  
    source venv/bin/activate
 
-3. **Instalar las dependencias:**  
+4. **Instalar las dependencias:**  
    pip install \-r requirements.txt
 
-4. Configurar las variables de entorno:  
+5. Configurar las variables de entorno:  
    Crea un archivo .env en la raíz del proyecto con tus claves y credenciales.  
    Necesitarás generar una clave de aplicación para usar como contraseña.  
    GOOGLE\_API\_KEY="tu\_clave\_de\_google\_aqui"  
